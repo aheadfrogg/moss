@@ -21048,8 +21048,8 @@ export const pokemonList = createPokemonArray(
         'exp': 157,
         'catchRate': 90,
         'evolutions': [
-            StoneEvolution('Doublade', 'Aegislash (Shield)', StoneType.Dusk_stone),
-            DummyEvolution('Doublade', 'Aegislash (Blade)'),
+            DayTimedStoneEvolution('Doublade', 'Aegislash (Shield)', StoneType.Dusk_stone),
+            NightTimedStoneEvolution('Doublade', 'Aegislash (Blade)', StoneType.Dusk_stone),
         ],
         'base': {
             'hitpoints': 59,
